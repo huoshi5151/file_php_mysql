@@ -29,7 +29,7 @@ $totalamount=$good['qiyou']*QIYOU+
 			$good['luntai']*LUNTAI+
 			$good['zhouccheng']*ZHOUCHENG;
 
-@$fp=fopen("$DOCUMENT_ROOT/sublimetext/2013/08/31/order.txt", 'ab');
+@$fp=fopen("$DOCUMENT_ROOT/sublimetext/2013/08/31/file_php_mysql/order.txt", 'ab');
 if (!$fp) {
 	echo '打开文件失败，请稍后再试';
 	exit;
